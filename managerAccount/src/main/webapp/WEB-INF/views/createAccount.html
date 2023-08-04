@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title></title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.4/dist/jquery.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+<center>
+    <body>
+    <h2>Create Account</h2>
+    <form method="post" enctype="multipart/form-data">
+    <table class="table table-bordered" style="width: 80%">
+        <tr style="text-align: center">
+            <th>Username</th>
+            <th>Password</th>
+            <th>role</th>
+            <th>Image-Link</th>
+            <th>Birthday</th>
+        </tr>
+
+            <tr>
+                <td>
+                    <input type="text" class="form-control" id="username" name="username"
+                           placeholder="Enter Username">
+                </td>
+                <td>
+                    <input type="text" class="form-control" id="password" name="password"
+                           placeholder="Enter Password">
+                </td>
+                <td>
+                    <select name="idRole">
+                        <option value="2">User</option>
+                        <option value="1">Admin</option>
+                    </select>
+                </td>
+                <td>
+                    <input type="file" class="form-control" id="imgFile" name="imgFile"
+                           placeholder="Enter Image-link">
+                </td>
+                <td>
+                    <input type="date" class="form-control" id="birthday" name="birthday"
+                           placeholder="Enter Birthday">
+                </td>
+            </tr>
+    </table>
+        <tr>
+            <button type="submit" style="width: 20%">Enter</button>
+        </tr>
+    </form>
+    </body>
+</center>
+</html>

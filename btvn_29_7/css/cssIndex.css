@@ -1,0 +1,39 @@
+.container{
+    width: 100%;
+    height: auto;
+}
+
+.menu{
+    width:  100%;
+    height: 130px;
+    background-color: rgb(255,186,0);
+}
+
+.up{ width: 80%;
+    height: 70px;
+    margin: 0 auto;
+    padding-top: 10px;
+}
+
+.up ul{
+    list-style: none; /*thuộc tính xóa dấu chấm ở thẻ ul li*/
+    margin-top: 0px;
+}
+.up ul li{
+    display: inline-block; /*nằm trên cùng 1 dòng* (có thể dùng inline-table)*/
+}
+.up ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+    color: #0f0f0f;
+}
+.up ul li a img{
+    vertical-align: middle;
+}
+/*chỉnh sửa cột*/
+.bang{
+    text-align: center;
+
+    height: auto;
+}
